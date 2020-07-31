@@ -5,7 +5,11 @@ export class Ships extends Component {
     render() {
         return (
             <div>
-                <Carousel items={this.props.items}/>
+                <h3>Our ships selection</h3>
+                <Carousel
+                    items={this.props.items}
+                    markSelected={this.props.markSelected}
+                    />
             </div>
         )
     }

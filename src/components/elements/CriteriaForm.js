@@ -9,11 +9,11 @@ export class CriteriaForm extends Component {
         distance: 0,
         budget: 0,
     }
-}
+  }
 
-onChange = input => e => {
-  this.setState({ [input]: e.target.value });
-};
+  onChange = input => e => {
+    this.setState({ [input]: e.target.value });
+  };
 
 
   render() {
