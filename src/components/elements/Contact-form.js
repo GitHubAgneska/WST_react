@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './contact-form.css';
 
 export class Form extends Component {
     constructor(props) {
@@ -17,36 +18,36 @@ export class Form extends Component {
 
     render() {
         return (
-            <>
+            <div className="contactForm-container">
             <h3>contact us</h3>
             <form>
                 <input 
                     type="text" 
                     name="customerName"
-                    placeholder="your name"
+                    placeholder="name"
                     value={this.state.customerName}
                     onChange={this.onChange}
                     />
                 <input 
                     type="text" 
                     name="customerEmail"
-                    placeholder="your email"
+                    placeholder="email"
                     value={this.state.customerEmail}
                     onChange={this.onChange}
                 />
                 <textarea
                     type="text" 
                     name="customerMessage"
-                    placeholder="your message"
+                    placeholder="message"
                     value={this.state.customerMessage}
                     onChange={this.onChange}
                 />
-                <input 
+                <input className="button"
                     type="submit" 
                     value="submit"
                 />
             </form>
-            </>
+            </div>
         )
     }
 }

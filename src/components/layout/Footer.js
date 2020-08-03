@@ -1,11 +1,10 @@
 import React from 'react'
 import LegalNotice from '../elements/LegalNotice';
-import Form from '../elements/Contact-form';
+import './footer.css';
 
 export default function Footer() {
     return (
-        <div>
-            <Form />
+        <div className="footer">
             <LegalNotice />
         </div>
     )

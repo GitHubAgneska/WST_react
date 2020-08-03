@@ -1,0 +1,26 @@
+.contactForm-container {
+    width: 60%;
+    margin: auto;
+    padding: 5%;
+    height:auto;
+    background-color: rgb(41, 41, 41);
+}
+h3 { text-align: left;}
+form{
+    display:flex;
+    flex-direction: column;
+}
+
+input , textarea{
+    padding:3%;
+    width: 40%;
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+
+textarea {
+
+    border-radius: 5px;
+    background-color: rgb(85, 85, 85);
+}

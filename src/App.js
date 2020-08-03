@@ -6,6 +6,7 @@ import Home from './components/pages/Home';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import Ships from './components/pages/Ships';
+import Loading from './components/pages/Loading';
 
 class App extends Component {
 
@@ -34,7 +35,6 @@ class App extends Component {
       }
       return item;
   }) });
-
   }
 
   render() {
@@ -43,8 +43,9 @@ class App extends Component {
         <div className="App">
           <div className="container">
             <Header />
-            <Ships items={this.state.items} markSelected={this.markSelected} />
-            <Route exact path="/" render={props => (
+            <Route path="/" component={Loading} />
+           {/*  <Ships items={this.state.items} markSelected={this.markSelected} /> */}
+            <Route exact path="/home" render={props => (
               <React.Fragment>
                 <Home />
               </React.Fragment>
@@ -54,7 +55,6 @@ class App extends Component {
                 <Ships items={this.state.items} markSelected={this.markSelected} />
               </React.Fragment>
             )}/>
-
           </div>
           <Footer />
         </div>

@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import './criteria-form.css';
+
 
 export class CriteriaForm extends Component {
 
@@ -18,7 +20,7 @@ export class CriteriaForm extends Component {
 
   render() {
     return (
-      <div>
+      <div className="">
         <form>
               <input 
                   type="date" 

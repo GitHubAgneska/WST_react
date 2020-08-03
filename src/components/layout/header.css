@@ -1,0 +1,16 @@
+.header {
+    width:100%;
+    position: fixed;
+    min-height: 15vh;
+    background-color: black;
+}
+
+h1 { 
+    font-size: 3rem;;
+    color: rgb(255, 187, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+h6 {
+     
+}
