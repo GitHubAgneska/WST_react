@@ -4,13 +4,17 @@
     min-height: 15vh;
     background-color: black;
 }
-
-h1 { 
+.titles-container {
+    margin: 2% auto;
+}
+.titles-container > h1 { 
     font-size: 3rem;;
     color: rgb(255, 187, 0);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
 }
-h6 {
-     
+
+.titles-container > h3 {
+    font-family: 'Poppins thin', 'Syncopate';
+    color:  rgba(255, 255, 255, 0.932);
+    letter-spacing: 0.2rem;
 }

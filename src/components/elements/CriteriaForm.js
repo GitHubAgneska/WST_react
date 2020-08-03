@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './criteria-form.css';
 
-
 export class CriteriaForm extends Component {
 
   constructor(props) {
@@ -20,7 +19,7 @@ export class CriteriaForm extends Component {
 
   render() {
     return (
-      <div className="">
+      <div className="criteriaForm-container">
         <form>
               <input 
                   type="date" 

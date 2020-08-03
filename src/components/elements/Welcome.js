@@ -5,7 +5,7 @@ export class welcome extends Component {
     render() {
         return (
             <div>
-                <h3>Start selecting your criteria</h3>
+                <h3>Start Booking</h3>
                 <CriteriaForm />
             </div>
         )

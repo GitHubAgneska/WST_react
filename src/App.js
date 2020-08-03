@@ -44,7 +44,6 @@ class App extends Component {
           <div className="container">
             <Header />
             <Route path="/" component={Loading} />
-           {/*  <Ships items={this.state.items} markSelected={this.markSelected} /> */}
             <Route exact path="/home" render={props => (
               <React.Fragment>
                 <Home />
