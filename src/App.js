@@ -43,7 +43,7 @@ class App extends Component {
         <div className="App">
           <div className="container">
             <Header />
-            <Route path="/" component={Loading} />
+            <Route exact path="/" component={Loading} />
             <Route exact path="/home" render={props => (
               <React.Fragment>
                 <Home />

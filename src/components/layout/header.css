@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family: 'newSpace';
+    src: local('newSpace'), url(/public/static/assets/fonts/new_space/New\ Space.ttf), format('ttf');
+}
+
 .header {
     width:100%;
     position: fixed;
@@ -10,7 +16,7 @@
 .titles-container > h1 { 
     font-size: 3rem;;
     color: rgb(255, 187, 0);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'newSpace', Impact, 'Arial Narrow Bold', sans-serif;
 }
 
 .titles-container > h3 {

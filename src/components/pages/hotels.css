@@ -1,0 +1,6 @@
+.wrap{
+    background-image: url(/assets/img/galaxy1.jpg);
+    background-attachment: fixed;
+    padding:10px;
+    padding-bottom:150px;
+}

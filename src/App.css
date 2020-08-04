@@ -9,6 +9,14 @@
   padding: 0;
   }
 
+
+/* general page content */
+.content {
+  background-attachment: fixed;
+  padding:10px;
+  padding-bottom:150px;
+}
+
 .button {
   font-size: 1rem;
   text-align: center;
@@ -20,3 +28,18 @@
   border-radius: 5px;
   background-color: rgb(255, 184, 92);
 }
+
+.validate-btn {
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+  padding:2%;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(92, 255, 233, 0.603);
+}
+
+.validate-btn:active {
+  background-color: rgba(92, 255, 233, 0.822);
+}
+
