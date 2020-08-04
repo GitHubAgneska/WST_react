@@ -1,7 +1,6 @@
 .footer {
     width:100%;
-    /* position: fixed; */
-    min-height: 20vh;
+    position: sticky;
     background-color: black;
     color: grey;
 }

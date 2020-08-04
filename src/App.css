@@ -4,6 +4,8 @@
   text-align: center;
 }
 
+html, body { height: 100%; }
+
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +17,7 @@
   background-attachment: fixed;
   padding:10px;
   padding-bottom:150px;
+  height: 100%; 
 }
 
 .button {

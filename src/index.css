@@ -2,10 +2,19 @@
 
 @font-face {
   font-family: 'newSpace';
-  src: url(/public/static/assets/fonts/new_space/New\ Space.ttf);
+  src: local('newSpace'), url(/public/static/assets/fonts/new_space/New\ Space.ttf);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@font-face {
+  font-family: 'kodchasan';
+  src: local('kodchasan'), url(/public/static/assets/fonts/Kodchasan/Kodchasan-Medium.ttf), format('truetype');
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 
 body {
   margin: 0;

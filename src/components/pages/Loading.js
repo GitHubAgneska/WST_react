@@ -8,7 +8,7 @@ export class Loading extends Component {
         return (
             <div className="background">
                 <Link to="/home">
-                    <h3>Wild Space travels will be with you within seconds..</h3>
+                    <h3>Wild Space travels<br></br>will be with you within seconds..</h3>
                 </Link>
             </div>
         )
